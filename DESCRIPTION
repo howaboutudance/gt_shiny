@@ -1,0 +1,27 @@
+Package: gt_shiny
+Title: A GT Shiny Package Expirement
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Michael",
+           family = "Package",
+           role = c("aut", "cre"),
+           email = "mike@hematite.tech",
+           comment = c(ORCID = "0000-0002-0761-7260"))
+Description: a expirement using gt, shiny app as a package and docker to attept to test deploying shiny inside shiny
+License: Apache License (>= 2)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    stringr,
+    dplyr (>=1.0),
+    tidyr,
+    shiny,
+    gt
+Suggests: 
+    assertthat,
+    testthat (>= 3.0.0)
+    languageserver
+Config/testthat/edition: 3
+Config/testthat/parallel: true
