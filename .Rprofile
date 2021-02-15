@@ -1,1 +1,2 @@
-source("renv/activate.R")
+setwd("./gtshinydemo")
+source("./renv/activate.R")
